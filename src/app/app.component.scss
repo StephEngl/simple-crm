@@ -7,7 +7,7 @@
 }
 
 .logo-container {
-  border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
+  border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
   padding: 0 16px 0 16px;
   height: 56px;
   display: flex;
@@ -31,7 +31,7 @@
         align-items: center;
 
         &:hover {
-            background-color: rgba($color: #000000, $alpha: 0.1);
+            background-color: rgba($color: #000000, $alpha: 0.05);
         }
 
         mat-icon {
@@ -43,4 +43,8 @@
 mat-toolbar, mat-toolbar-row {
     height: 56px;
     min-height: 56px;
+}
+
+.router-wrapper {
+    padding: 16px 56px;
 }
